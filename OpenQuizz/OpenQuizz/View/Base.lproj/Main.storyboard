@@ -31,6 +31,9 @@
                                 <state key="normal" title="New Game">
                                     <color key="titleColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapNewGameButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmr-mR-ZTy"/>
+                                </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="1f1-i5-IOt">
                                 <rect key="frame" x="169" y="589" width="37" height="37"/>
@@ -62,13 +65,18 @@
                                 <color key="backgroundColor" red="0.74757379290000003" green="0.76840615270000001" blue="0.78956061600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="icon" destination="Jmz-et-MKX" id="3Wb-Pd-Fye"/>
-                                    <outlet property="label" destination="cjD-OB-AO9" id="pbH-Vg-kaR"/>
                                 </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.34291723369999999" green="0.41843488810000001" blue="0.51121181250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="1f1-i5-IOt" id="9ed-45-oft"/>
+                        <outlet property="newGameButton" destination="FMy-wF-kLC" id="2zb-rt-6yK"/>
+                        <outlet property="questionView" destination="cjD-OB-AO9" id="GyN-GE-HK0"/>
+                        <outlet property="scoreLabel" destination="6RB-ur-jnz" id="7ZZ-Sd-31U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

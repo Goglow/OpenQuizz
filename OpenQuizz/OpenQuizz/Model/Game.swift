@@ -3,15 +3,14 @@ import Foundation
 
 class Game {
     var score = 0
-    
-    private var questions = [Question]()
-    private var currentIndex = 0
-    
     var state: State = .ongoing
     
     enum State {
         case ongoing, over
     }
+    
+    private var questions = [Question]()
+    private var currentIndex = 0
     
     var currentQuestion: Question {
         return questions[currentIndex]
@@ -25,7 +24,6 @@ class Game {
         QuestionManager.shared.get { (questions) in
             self.questions = questions
             self.state = .ongoing
-            
             let name = Notification.Name(rawValue : "QuestionsLoaded")
             let notification = Notification(name: name)
             NotificationCenter.default.post(notification)
