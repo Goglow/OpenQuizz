@@ -74,7 +74,7 @@
                     <connections>
                         <outlet property="activityIndicator" destination="1f1-i5-IOt" id="9ed-45-oft"/>
                         <outlet property="newGameButton" destination="FMy-wF-kLC" id="2zb-rt-6yK"/>
-                        <outlet property="questionView" destination="cjD-OB-AO9" id="GyN-GE-HK0"/>
+                        <outlet property="questionView" destination="cjD-OB-AO9" id="sCo-RH-hqI"/>
                         <outlet property="scoreLabel" destination="6RB-ur-jnz" id="7ZZ-Sd-31U"/>
                     </connections>
                 </viewController>
