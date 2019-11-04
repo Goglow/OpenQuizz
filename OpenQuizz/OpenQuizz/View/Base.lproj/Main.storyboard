@@ -65,6 +65,7 @@
                                 <color key="backgroundColor" red="0.74757379290000003" green="0.76840615270000001" blue="0.78956061600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="icon" destination="Jmz-et-MKX" id="3Wb-Pd-Fye"/>
+                                    <outlet property="label" destination="cjD-OB-AO9" id="Rzr-BS-waJ"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -74,7 +75,7 @@
                     <connections>
                         <outlet property="activityIndicator" destination="1f1-i5-IOt" id="9ed-45-oft"/>
                         <outlet property="newGameButton" destination="FMy-wF-kLC" id="2zb-rt-6yK"/>
-                        <outlet property="questionView" destination="cjD-OB-AO9" id="sCo-RH-hqI"/>
+                        <outlet property="questionView" destination="lHe-9d-fBi" id="2s3-yd-pc0"/>
                         <outlet property="scoreLabel" destination="6RB-ur-jnz" id="7ZZ-Sd-31U"/>
                     </connections>
                 </viewController>
